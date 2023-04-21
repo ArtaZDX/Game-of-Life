@@ -6,7 +6,7 @@ COLOR_BG = (10, 10, 10)
 COLOR_GRID = (40, 40, 40)
 COLOR_DIE_NEXT = (170, 170, 170)
 COLOR_ALIVE_NEXT = (255, 255, 255)
-pygame.display.set_caption("Game Of Life")
+pygame.display.set_caption("Game Of Life by Arta M.")
 
 def update(screen, cells, size, with_progress=False):
     updated_cells = np.zeros((cells.shape[0], cells.shape[1]))
